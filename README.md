@@ -1,34 +1,24 @@
-<<<<<<< HEAD
-# TheReadingRoom-BookStore
-Built using MERN stack with user authentication and admin interface.
-=======
-# Backend
-// Server Creation Setup
--> npm init -y
--> npm i express mongoose nodemon
--> nodemon app.js or node app.js
--> npm i dotenv and created .env file inside backend folder
+# The Reading Room Backend 📚
 
-// Connection with db setup
--> Create conn folder and conn.js for connecting with db
--> Goto mongodb atlas, create project and set the network access to every url and create the cluster0
+This is the backend service for **The Reading Room**, an online book-selling platform. It provides APIs for user authentication, book management, order processing, and more.
 
-// Model Schema Setup
--> Create models folder in backend and user, book & order in it to store schemas
+## Features ✨
 
-// APIs Setup
--> Create routes in backend and user.js in it and add zod in it too.
--> npm i bcrypt // to hash the password before saving to db
--> for signin post request, npm i bcryptjs
--> npm i jsonwebtoken and set the secret key as "ReadingRoom"
--> create userAuth.js in routes to authenticate users with their token and secret key
--> create book.js to write apis for the book crud operations
--> create favourites.js
--> create cart.js and then order.js
+- **User Authentication**: Secure login and signup using JSON Web Tokens (JWT).
+- **Role-Based Authorization**: Separate permissions for users and administrators.
+- **CRUD Operations**: APIs for managing books, users, and orders.
+- **Data Validation**: Ensures data integrity using Zod.
+- **Database**: MongoDB for storing books, users, and orders.
 
-# Frontend
--> Create react app
+## Tech Stack 🛠️
 
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **Validation**: Zod Library
 
+## Installation 🛠️
 
->>>>>>> 4f42d32 (push-app-to-github)
+1. **Clone the repository**:  
+   ```bash
+   git clone [https://github.com/your-username/TheReadingRoom-backend.git](https://github.com/MadhavJaishi/TheReadingRoom-BookStore-Backend/
